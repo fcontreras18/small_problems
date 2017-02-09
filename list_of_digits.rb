@@ -1,7 +1,7 @@
 # Write a method that takes one argument, a positive integer, and returns a list of the digits in the number.
 
 # brute force
-def digit_list(num)
+def digit_list(number)
   digits = []
   loop do
     number, remainder = number.divmod(10)
